@@ -1,0 +1,9 @@
+
+.three-cols {
+  column-count: 3;
+  column-gap: normal;
+}
+
+.three-cols > * {
+  break-inside: avoid;
+}
