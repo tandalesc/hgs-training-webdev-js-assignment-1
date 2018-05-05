@@ -33,12 +33,12 @@ Let's specify our datatypes:
 I want you to explore a few different scenarios:
 
 1.  You have a JSON array of movies. You need to display a card for a *specific* movie.
-2.  Same as above, but display a *range* of movies.
-3.  Same as above, but you give the user a button. When clicked, it will add a new movie with predefined fields. You can opt to pull the next one from a list, sequentially or randomly, or even just add the same movie repeatedly. *Note: Check `sample1.png` for a snapshot of what a solution to this stage could look like.*
+2.  Display a *range* of movies.
+3.  Give the user a button. When clicked, it will add a new movie with predefined fields. You can opt to pull the next one from a list, sequentially or randomly, or even just add the same movie repeatedly. *Note: Check `sample1.png` for a snapshot of what a solution to this stage could look like.*
 4.  You will now load the movies directly from the server, in addition to loading them from the static file. The AJAX end-point you should use is: http://training1.homegrown-solutions.com/movies/get/all. Just append the server-data to the local array for now.
 5.  Same as above, but with a simple *catch*: if the server returns anything other than a 200 Response Code, fail gracefully. No errors, or any indication that a server connection failed.
 
-I just need to see your code for Scenario 5. However, each scenario builds on the last, so I recommend working on them sequentially.
+Only your code for Scenario 5 will be collected. However, each scenario builds on the last, so I recommend working on them sequentially.
 
 Questions
 -----
@@ -61,11 +61,11 @@ In your submission, please include the following:
   - `movieStyles.css`
   - *Any other files you created*
 * **Report**
+  - Should only be about *1-2 pages, single spaced*
+  - docx, txt, md, pdf file (bonus points if you use LaTeX!)
   - *Summary* of what changes you made, and a high-level overview of how your code works
   - *Answers* to all questions
   - *Reflection:* What did you learn? What would you do differently if you had to do this project a second time?
-  - Should only be about *1-2 pages, single spaced*
-  - docx, txt, md, pdf file (bonus points if you use LaTeX!)
 
 Submit these files as a .7z.
 
