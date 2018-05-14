@@ -28,7 +28,8 @@ Let's specify our datatypes:
 * Movie
   - Title (title: String)
   - Description (text: String)
-  - IMDb Link (link: String)
+  - IMDb Link (webLink: String)
+  - Internal Id (id: Long)
 
 I want you to explore a few different scenarios:
 
